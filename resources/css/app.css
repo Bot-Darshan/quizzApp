@@ -1,5 +1,14 @@
-@tailwind base;
+@import "tailwindcss/base";
 
-@tailwind components;
+@import "tailwindcss/components";
 
-@tailwind utilities;
+@import "tailwindcss/utilities";
+
+.body-bg {
+    background-color: #9921e8;
+    background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+}
+
+input:invalid {
+   box-shadow:none;
+}
